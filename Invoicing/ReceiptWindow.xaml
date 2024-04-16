@@ -1,0 +1,12 @@
+﻿<Window x:Class="Invoicing.ReceiptWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="New Receipt" Height="199.038" Width="336">
+    <Grid>
+        <Label Content="Notes for Customer:" HorizontalAlignment="Left" Margin="29,20,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.321,0.125"/>
+        <TextBox x:Name="txtNotes" HorizontalAlignment="Left" Height="58" Margin="29,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="267"/>
+        <Button x:Name="btnOk" Content="Ok" Click="btnOk_Click"  Padding="5" HorizontalAlignment="Left" Margin="48,127,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnCancel" Content="Cancel" Click="btnCancel_Click"  Padding="5" HorizontalAlignment="Left" Margin="173,127,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

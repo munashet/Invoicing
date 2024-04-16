@@ -1,0 +1,15 @@
+﻿<Window x:Class="Invoicing.QuotationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="New Quotation" Height="234" Width="336">
+    <Grid>
+        <Label Content="Notes for Customer:" HorizontalAlignment="Left" Margin="29,20,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.321,0.125"/>
+        <TextBox x:Name="txtNotes" HorizontalAlignment="Left" Height="58" Margin="29,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="267"/>
+        <Button x:Name="btnOk" Content="Ok" Click="btnOk_Click"  Padding="5" HorizontalAlignment="Left" Margin="48,161,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnCancel" Content="Cancel" Click="btnCancel_Click"  Padding="5" HorizontalAlignment="Left" Margin="191,161,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Valid For:" HorizontalAlignment="Left" Margin="29,131,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.536,1.438"/>
+        <TextBox x:Name="txtValidFor" HorizontalAlignment="Left" Height="23" Margin="95,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="days" HorizontalAlignment="Left" Margin="220,131,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

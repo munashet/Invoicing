@@ -1,0 +1,14 @@
+﻿<Window x:Class="Invoicing.InvoiceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Invoice" Height="291" Width="387">
+    <Grid>
+        <Label Content="Due Date:" HorizontalAlignment="Left" Margin="32,30,0,0" VerticalAlignment="Top"/>
+        <DatePicker Name="dpDueDate" HorizontalAlignment="Left" Margin="89,26,0,0" VerticalAlignment="Top" Width="267"/>
+        <Label Content="Notes for Customer:" HorizontalAlignment="Left" Margin="32,85,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.321,0.125"/>
+        <TextBox Name="txtNotes" HorizontalAlignment="Left" Height="58" Margin="32,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="324"/>
+        <Button Name="btnOk" Content="Ok" Click="btnOk_Click" Padding="5" HorizontalAlignment="Left" Margin="78,202,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Name="btnCancel" Content="Cancel" Click="btnCancel_Click" Padding="5" HorizontalAlignment="Left" Margin="203,202,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+﻿<Window x:Class="Invoicing.DocumentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Document" Height="600" Width="800">
+    <DockPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" LastChildFill="True">
+        <ToolBar DockPanel.Dock="Top" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
+            <Button Name="btnPrint" Content="Print" Click="btnPrint_Click"/>
+        </ToolBar>
+        <FlowDocumentReader Name="flowDocumentReader" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalAlignment="Stretch" VerticalContentAlignment="Stretch">
+        </FlowDocumentReader>
+    </DockPanel>
+</Window>
